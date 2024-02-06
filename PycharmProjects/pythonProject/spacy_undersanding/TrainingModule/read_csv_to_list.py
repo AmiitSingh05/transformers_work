@@ -36,8 +36,3 @@ def get_name_list():
     return get_second_item(csv_file_path)
 
 
-# print("Second items from each row:")
-# result = get_name_list()
-# for item in result:
-#     print(item)
-print(type(get_name_list()))
