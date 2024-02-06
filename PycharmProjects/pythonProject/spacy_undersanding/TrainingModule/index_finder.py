@@ -15,16 +15,3 @@ def find_word_indices(sentence, word):
     else:
         # If the word is not found in the sentence, return a message indicating so
         return "Word not found in the sentence"
-
-
-# Example usage:
-sentence = "This is a sample sentence to demonstrate the program."
-word_to_find = "sample"
-
-result = find_word_indices(sentence, word_to_find)
-
-if isinstance(result, tuple):
-    start_index, end_index = result
-    print(f"The word '{word_to_find}' starts at index {start_index} and ends at index {end_index}.")
-else:
-    print(result)
